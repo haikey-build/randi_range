@@ -1,7 +1,7 @@
 extends Node2D
 
 var _lines = []
-@onready var _chart_line_scene = preload("res://chart_line.tscn")
+@onready var _chart_line_scene = preload("res://simulation/charts/chart_line.tscn")
 
 func set_new_vals(bar_vals):
 	for i in range(_lines.size()):

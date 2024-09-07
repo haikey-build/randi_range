@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://qy03cpeloxj4"]
 
-[ext_resource type="Script" path="res://statistic_panel.gd" id="1_dgy5i"]
-[ext_resource type="LabelSettings" uid="uid://b3fo4m5tij3uf" path="res://statistic_panel_font.tres" id="2_ywe8j"]
+[ext_resource type="Script" path="res://simulation/stats/statistic_panel.gd" id="1_dgy5i"]
+[ext_resource type="LabelSettings" uid="uid://b3fo4m5tij3uf" path="res://simulation/stats/statistic_panel_font.tres" id="2_ywe8j"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_rcd5o"]
 

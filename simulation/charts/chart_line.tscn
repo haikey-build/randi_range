@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://dg20bcwcdeqb4"]
 
-[ext_resource type="Script" path="res://chart_line.gd" id="1_esjuq"]
+[ext_resource type="Script" path="res://simulation/charts/chart_line.gd" id="1_faw63"]
 
 [node name="ChartLine" type="Line2D"]
 width = 4.0
 default_color = Color(0, 0, 0, 1)
-script = ExtResource("1_esjuq")
+script = ExtResource("1_faw63")
