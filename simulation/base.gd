@@ -37,6 +37,7 @@ func _rebalance():
 	_stat_panel.update(_total, highest / _total, lowest / _total)
 	_lines_panel.set_new_vals([highest / _total, lowest / _total])
 
+
 func _input(event):
-	if event is InputEventKey and event.pressed and event.scancode == KEY_ESCAPE:
+	if event is InputEventKey and event.pressed and event.keycode == KEY_ESCAPE:
 		get_tree().quit()
