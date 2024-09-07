@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://4cyfi18oetxr"]
+
+[ext_resource type="Script" path="res://base.gd" id="1_erqmw"]
+[ext_resource type="PackedScene" uid="uid://qy03cpeloxj4" path="res://statistic_panel.tscn" id="2_jwath"]
+[ext_resource type="PackedScene" uid="uid://ijloor4tilcn" path="res://lines_panel.tscn" id="3_yo0ka"]
+
+[node name="Base" type="Node2D"]
+script = ExtResource("1_erqmw")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -470)
+zoom = Vector2(0.5, 0.5)
+
+[node name="StatisticPanel" parent="." instance=ExtResource("2_jwath")]
+position = Vector2(607, -1055)
+
+[node name="LinesPanel" parent="." instance=ExtResource("3_yo0ka")]
+position = Vector2(-981, -1060)

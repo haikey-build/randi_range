@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://23nmaq12qj4p"]
+
+[ext_resource type="Script" path="res://bar.gd" id="1_io87o"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_frfwb"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_sic77"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_d3usr"]
+font_size = 36
+
+[node name="Bar" type="Node2D"]
+script = ExtResource("1_io87o")
+
+[node name="Rect" type="MeshInstance2D" parent="."]
+position = Vector2(0, -1.06)
+scale = Vector2(100, 100)
+mesh = SubResource("QuadMesh_frfwb")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+position = Vector2(0, 85.5)
+scale = Vector2(100, 71)
+mesh = SubResource("QuadMesh_sic77")
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+offset_left = -49.0
+offset_top = 59.0
+offset_right = 50.0
+offset_bottom = 109.0
+text = "1"
+label_settings = SubResource("LabelSettings_d3usr")
+horizontal_alignment = 1

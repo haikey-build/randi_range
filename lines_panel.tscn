@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ijloor4tilcn"]
+
+[ext_resource type="PackedScene" uid="uid://dg20bcwcdeqb4" path="res://chart_line.tscn" id="1_mpnsf"]
+[ext_resource type="Script" path="res://lines_panel.gd" id="1_ycv0x"]
+
+[node name="LinesPanel" type="Node2D"]
+script = ExtResource("1_ycv0x")
+
+[node name="HighestChartLine" parent="." instance=ExtResource("1_mpnsf")]
+
+[node name="LowestChartLine" parent="." instance=ExtResource("1_mpnsf")]
