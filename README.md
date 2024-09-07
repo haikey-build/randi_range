@@ -2,6 +2,8 @@
 
 A little Godot demo showing how `randi_range` converges.
 
+<img src="https://github.com/haikey-build/randi_range/blob/main/randi%20demo.gif" alt="demo gif" width="500">
+
 ## Intermediate Tutorial Videos
 
 ### Generating 2D Levels Randomly
